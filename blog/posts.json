@@ -1,0 +1,125 @@
+{
+  "series": {
+    "cs153": {
+      "title": "Stanford CS 153 Lecture Notes",
+      "summary": "Notes and reflections from Stanford's CS 153 (\"AI Coachella\"), a tour of the frontier-AI stack told by the people building it, written up lecture by lecture."
+    },
+    "harness-engineering": {
+      "title": "Harness Engineering",
+      "summary": "Notes and write-ups on building agent harnesses: orchestration, tools, evals, and the engineering around LLM systems."
+    },
+    "system-design": {
+      "title": "System Design",
+      "summary": "Notes on designing systems at scale: architecture, trade-offs, reliability, and the patterns behind them."
+    }
+  },
+  "posts": [
+    {
+      "slug": "cs153-01-cybersecurity",
+      "title": "CS 153, Lecture 1: When the Security Chief Becomes the Defendant",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-01-cybersecurity.md",
+      "summary": "Joe Sullivan ran security at Facebook, Uber, and Cloudflare, and became the first CISO criminally prosecuted in the US. His lecture is about liability, transparency, resilience, and a threat landscape that AI is rewriting in real time.",
+      "tags": ["cs153", "security", "notes"]
+    },
+    {
+      "slug": "cs153-02-google-infrastructure",
+      "title": "CS 153, Lecture 2: Why a Gigawatt Isn't a Gigawatt",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-02-google-infrastructure.md",
+      "summary": "Amin Vahdat runs Google's infrastructure. His lecture reframed the compute race for me: the metric that matters is value per dollar, not gigawatts, and the hard problems are system balance, reliability, and energy.",
+      "tags": ["cs153", "ai-infrastructure", "notes"]
+    },
+    {
+      "slug": "cs153-03-yc-agentic-company",
+      "title": "CS 153, Lecture 3: Boil the Ocean (YC on the Agentic Company)",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-03-yc-agentic-company.md",
+      "summary": "Garry Tan and Diana Hu from Y Combinator on the software factory, the closed-loop company, and why the old instinct to 'not boil the ocean' is now wrong. The part that matters most: taste, and evals, are the moat.",
+      "tags": ["cs153", "startups", "notes"]
+    },
+    {
+      "slug": "cs153-04-energy",
+      "title": "CS 153, Lecture 4: Energy, Nuclear Power, and the Uranium Bottleneck",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-04-energy.md",
+      "summary": "Scott Nolan of General Matter argues that energy, and specifically domestic uranium enrichment, is the upstream constraint on AI scaling, applying a SpaceX-style first-principles playbook to rebuild US nuclear fuel capacity.",
+      "tags": ["cs153", "energy", "notes"]
+    },
+    {
+      "slug": "cs153-05-computing",
+      "title": "CS 153, Lecture 5: Reinventing Computing for the AI Era",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-05-computing.md",
+      "summary": "Jensen Huang argues computing is being reinvented for the first time in 60 years, covering NVIDIA's co-design speedups, the generational architecture roadmap, the MFU debate, open models, energy demand, and export controls.",
+      "tags": ["cs153", "hardware", "notes"]
+    },
+    {
+      "slug": "cs153-06-leadership",
+      "title": "CS 153, Lecture 6: Leadership, Culture, and Reinventing Venture Capital",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-06-leadership.md",
+      "summary": "Ben Horowitz of a16z on building a scalable VC firm, why culture is a set of actions rather than beliefs, why companies need decisive leadership, and how AI has changed the economics of startups and moats.",
+      "tags": ["cs153", "leadership", "notes"]
+    },
+    {
+      "slug": "cs153-07-product",
+      "title": "CS 153, Lecture 7: The Evolution of Product Management in the AI Era",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-07-product.md",
+      "summary": "Nicole Singhal maps company growth into four phases of product management and argues that AI is merging the PM, designer, and engineer roles into a single hands-on 'product builder' rather than killing the function.",
+      "tags": ["cs153", "product", "notes"]
+    },
+    {
+      "slug": "cs153-08-luma",
+      "title": "CS 153, Lecture 8: Unified Multimodal AI and the Luma Video Factory",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-08-luma.md",
+      "summary": "Amit Jain of Luma AI on why generative AI should be designed around where data lives, how unified single-backbone transformers beat federated pipelines for multimodal intelligence, and what the shift means for the creative industry.",
+      "tags": ["cs153", "multimodal", "notes"]
+    },
+    {
+      "slug": "cs153-09-visual-intelligence",
+      "title": "CS 153, Lecture 9: Visual Intelligence and the Frontier of Generative Modeling",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-09-visual-intelligence.md",
+      "summary": "Andreas Blattmann of Black Forest Labs on natural versus unnatural representations, latent diffusion, the diffusion versus autoregressive trade-off, and how a 25-person team bootstrapped a frontier visual AI company with Flux.",
+      "tags": ["cs153", "diffusion", "notes"]
+    },
+    {
+      "slug": "cs153-10-audio",
+      "title": "CS 153, Lecture 10: Frontier Audio AI and the Future of Voice",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-10-audio.md",
+      "summary": "ElevenLabs CEO Mati Staniszewski on building frontier audio AI, from the Polish dubbing origin story to the cascaded versus fused architecture debate, value-based pricing, voice safety, and a five-year platform vision.",
+      "tags": ["cs153", "audio", "notes"]
+    },
+    {
+      "slug": "cs153-11-compute-infrastructure",
+      "title": "CS 153, Lecture 11: The Frontier AI Stack, Context, and Compute",
+      "date": "2026-06-14",
+      "series": "cs153",
+      "file": "cs153/cs153-11-compute-infrastructure.md",
+      "summary": "Anjney Midha opens the quarter with a map of the whole AI stack, the case that context and verifiable feedback loops decide where progress and value go, and a hard look at why compute isn't a commodity.",
+      "tags": ["cs153", "ai-infrastructure", "notes"]
+    },
+    {
+      "slug": "ai-labor-markets-panel",
+      "title": "AI and Labor Markets: The Implementation Gap and Displacement",
+      "date": "2026-06-14",
+      "file": "articles/ai-labor-markets-panel.md",
+      "summary": "A panel on how AI reshapes labor markets, contrasting aggressive automation timelines with the implementation gap, an aging-driven demographic counterweight, and the entry-level displacement signal showing up in payroll data.",
+      "tags": ["labor-markets", "economics", "notes"]
+    }
+  ]
+}
